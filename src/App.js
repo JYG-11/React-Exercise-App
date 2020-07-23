@@ -8,7 +8,7 @@ import EditExercise from "./components/edit-exercise.component.js";
 import CreateExercise from "./components/create-exercise.component.js";
 import CreateUser from "./components/create-user.component.js";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="conatiner">
@@ -21,6 +21,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
